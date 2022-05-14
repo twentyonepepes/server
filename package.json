@@ -1,0 +1,29 @@
+{
+  "name": "@twentyonepepes/server",
+  "version": "2.0.1",
+  "main": "main",
+  "typings": "main",
+  "scripts": {
+    "build": "babel index.js -o main.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-convert-to-json": "^0.1.0",
+    "babel-watch": "^7.5.0",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.4.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "rxjs": "^7.4.0",
+    "websocket": "^1.0.34",
+    "@babel/runtime": "^7.16.0"
+  },
+  "author": "twentyonepepes",
+  "license": "ISC"
+}
